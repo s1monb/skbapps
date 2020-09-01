@@ -3,11 +3,15 @@ import SidebarButton from "./SidebarButton";
 
 function Sidebar() {
   return (
-    <div className="w-1/4 border-r border-gray-400 h-screen inline-block relative">
+    <div className="w-1/4 border-r border-gray-700 h-screen inline-block relative">
       {/* Header section */}
       <button></button>
       <div className="mt-8 ml-6">
-        <img src="/img/simon.png" width="150px" alt="" className="" />
+        <img
+          src="/img/simon.png"
+          width="150px"
+          alt="Developer Simon Kinn Bjørnøy"
+        />
         <h1 className="font-bold text-3xl mt-2">Simon K. Bjørnøy</h1>
       </div>
 

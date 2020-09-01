@@ -1,24 +1,19 @@
 import React from "react";
 import Sidebar from "./Sidebar";
+import HomeSection from "./HomeSection";
+import ProjectsSection from "./ProjectsSection";
+import SkillsSection from "./SkillsSection";
+import ContactSection from "./ContactSection";
 
 function App() {
   return (
-    <div className="w-screen h-screen text-white subpixel-antialiased">
+    <div className="w-screen h-screen text-gray-300 subpixel-antialiased">
       <Sidebar />
       <div className="inline-block absolute top-0 right-0 w-3/4 overflow-scroll h-screen pl-10">
-        <div className="text-6xl">TODO</div>
-
-        <div className="text-6xl">TODO</div>
-        <div className="text-6xl">TODO</div>
-        <div className="text-6xl">TODO</div>
-        <div className="text-6xl">TODO</div>
-        <div className="text-6xl">TODO</div>
-        <div className="text-6xl">TODO</div>
-        <div className="text-6xl">TODO</div>
-        <div className="text-6xl">TODO</div>
-        <div className="text-6xl">TODO</div>
-        <div className="text-6xl">TODO</div>
-        <div className="text-6xl">TODO</div>
+        <HomeSection />
+        <ProjectsSection />
+        <SkillsSection />
+        <ContactSection />
       </div>
     </div>
   );
