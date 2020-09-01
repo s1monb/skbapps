@@ -8,7 +8,6 @@
 
 html {
   background-color: black;
-  scroll-behavior: smooth;
 }
 body {
   margin: 0;
@@ -19,4 +18,9 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.active {
+  border-color: #ecc94b;
+  color: #e2e8f0;
 }

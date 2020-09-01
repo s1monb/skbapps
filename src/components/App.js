@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="w-screen h-screen text-gray-300 subpixel-antialiased">
       <Sidebar />
-      <div className="inline-block absolute top-0 right-0 w-3/4 overflow-scroll h-screen pl-10">
+      <div className="inline-block right-0 w-3/4 h-screen pl-10 absolute">
         <HomeSection />
         <ProjectsSection />
         <SkillsSection />
