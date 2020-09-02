@@ -7,7 +7,7 @@ const sidebar = {
   show: {
     width: "25%",
     transition: {
-      duration: 0.5,
+      duration: 0.6,
     },
   },
   hidden: {
@@ -66,7 +66,7 @@ function Sidebar({ isOpen, setOpen }) {
     >
       {/* Header section */}
       <div>
-        <div className="w-full block mt-8 h-2">
+        <div className="w-full block mt-8 pr-6 h-2">
           <SidebarToggleButton toggle={() => toggleOpen()} isOpen={isOpen} />
         </div>
         <div className="ml-6 pt-16">
