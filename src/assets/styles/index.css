@@ -8,7 +8,17 @@
 
 html {
   background-color: black;
+  scrollbar-width: none;
 }
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+div::-webkit-scrollbar {
+  display: none;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -22,7 +32,6 @@ code {
 
 .active {
   border-color: #ecc94b;
-  color: #e2e8f0;
 }
 
 #nav-icon1,

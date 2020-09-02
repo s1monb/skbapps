@@ -6,18 +6,18 @@ const name = {
   show: {
     opacity: 1,
     transition: {
-      duration: 0.3,
+      duration: 0.2,
     },
   },
   hidden: {
     opacity: 0,
     transition: {
-      duration: 0.3,
+      duration: 0.2,
     },
   },
 };
 
-function SidebarButton({ title, isOpen }) {
+function SidebarButton({ title, isOpen, theme }) {
   return (
     <Link
       to={title}
@@ -26,9 +26,9 @@ function SidebarButton({ title, isOpen }) {
       smooth={true}
       duration={1000}
       offset={0}
-      className="block w-full focus:outline-none text-3xl text-gray-500 text-left pl-10 py-1 border-r-4 border-transparent hover:text-gray-300 hover:border-yellow-500"
+      className="block w-full focus:outline-none text-xl sm:text-3xl text-left cursor-pointer pl-10 py-1 border-r-8 border-transparent hover:text-gray-300 hover:border-yellow-500"
     >
-      <li className={isOpen ? "mb-2" : "pb-2 ml-1"}>
+      <li className={isOpen ? "mb-2 " : "pb-2 ml-1 text-3xl"}>
         {title.charAt(0)}
         <motion.span animate={isOpen ? "show" : "hidden"} variants={name}>
           {title.substring(1)}
