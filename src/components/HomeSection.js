@@ -1,4 +1,14 @@
 import React from "react";
+import { Link } from "react-scroll";
+import { motion } from "framer-motion";
+
+const bounceTransition = {
+  y: {
+    duration: 0.4,
+    yoyo: Infinity,
+    ease: "easeOut",
+  },
+};
 
 function HomeSection() {
   return (
@@ -78,7 +88,7 @@ function HomeSection() {
             Hjem
           </h1>
         </div>
-        <div className="bg-dark1 inline-block px-16 py-10 rounded-lg shadow-md">
+        <div className="bg-dark1 inline-block px-16 py-10 rounded-lg shadow-md text-left">
           <div className="mb-2">
             <svg
               className="inline-block h-16 mb-3"
@@ -94,7 +104,7 @@ function HomeSection() {
               <span className="text-3xl ml-3">- Dette er min jobbsøknad</span>
             </div>
           </div>
-          <div className="flex flex-wrap bg-ocean rounded-lg shadow-md">
+          <div className="flex flex-wrap bg-ocean rounded-lg shadow-md px-12 py-8">
             <div className="ml-16">
               <div className="my-6">
                 <img
@@ -116,16 +126,57 @@ function HomeSection() {
                 </div>
               </div>
             </div>
-            <div className="w-16 h-16">
-              <div className="text-left inline-block mb-6 pl-8">
-                <p className="text-xl">Alder:</p>
-                <div className="bg-ocean2 text-2xl px-3 py-1 rounded-md shadow-md">
-                  21 år
+            <div className="ml-10 mr-8">
+              <div className="text-left inline-block mb-6 pl-10">
+                <p className="text-xl">Egenskaper:</p>
+                <div className="bg-ocean2 text-2xl pl-6 pr-48 pt-4 pb-20 mt-2 rounded-md shadow-md">
+                  <ul className="space-y-2 pb-24 pt-2">
+                    <li>
+                      <i className="text-superpink text-3xl fal fa-portrait"></i>
+                      <span className="text-white text-2xl ml-3">
+                        Selvstending
+                      </span>
+                    </li>
+                    <li>
+                      <i className="text-superpink text-3xl fal fa-question-circle"></i>
+                      <span className="text-white text-2xl ml-3">
+                        Nysgjerrig
+                      </span>
+                    </li>
+                    <li>
+                      <i className="text-superpink text-3xl fal fa-bullseye-arrow"></i>
+                      <span className="text-white text-2xl ml-3">
+                        Målbevisst
+                      </span>
+                    </li>
+                    <li>
+                      <i className="text-superpink text-3xl fal fa-laptop-code"></i>
+                      <span className="text-white text-2xl ml-3">Selvlært</span>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
           </div>
         </div>
+        <Link
+          to="Prosjekter"
+          spy={true}
+          smooth={true}
+          duration={800}
+          offset={0}
+        >
+          <motion.div
+            transition={bounceTransition}
+            animate={{ y: ["10%", "-10%"] }}
+            className="absolute opacity-75 cursor-pointer hover:opacity-100 text-lg"
+            style={{ bottom: "30px", right: "50%" }}
+          >
+            <span className="">Keep scrolling</span>
+            <br />
+            <i className="fal fa-arrow-down text-2xl"></i>
+          </motion.div>
+        </Link>
       </section>
     </div>
   );
