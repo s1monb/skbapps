@@ -13,7 +13,11 @@ const bounceTransition = {
 function HomeSection() {
   return (
     <div>
-      <section className="h-screen relative text-center" id="Hjem">
+      <section
+        className="h-screen relative text-center"
+        id="Hjem"
+        style={{ scrollSnapAlign: "start" }}
+      >
         <svg
           className="absolute"
           style={{ top: "0px", right: "0px", zIndex: "-1" }}

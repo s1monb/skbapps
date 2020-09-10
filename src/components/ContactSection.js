@@ -2,7 +2,11 @@ import React from "react";
 
 function ContactSection() {
   return (
-    <section className="h-screen relative max-h-screen" name="Kontakt">
+    <section
+      className="h-screen relative max-h-screen"
+      id="Kontakt"
+      style={{ scrollSnapAlign: "start" }}
+    >
       <div className="sticky top-0 z-40">
         <div className="inline-block h-20 w-20 rounded-full bg-dark1 ml-8 text-5xl text-superpink text-center shadow-md mt-5">
           <i className="fal fa-phone-alt"></i>

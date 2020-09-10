@@ -2,7 +2,11 @@ import React from "react";
 
 function ProjectSection() {
   return (
-    <section className="h-screen bg-light1 text-center" id="Prosjekter">
+    <section
+      className="h-screen bg-light1 text-center"
+      id="Prosjekter"
+      style={{ scrollSnapAlign: "center" }}
+    >
       <div className="sticky top-0 z-40 text-left">
         <div className="inline-block h-20 w-20 rounded-full bg-dark1 ml-8 text-5xl text-superpink text-center shadow-md mt-5">
           <i className="fal fa-folder"></i>
