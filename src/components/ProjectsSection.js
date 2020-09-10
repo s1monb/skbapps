@@ -53,18 +53,31 @@ function ProjectSection() {
                 height="280px"
               />
               <p className="text-xl px-4 py-3">
-                Nettside lagde med React frontend og ExpressJS backend.
+                Nettside lagd med React frontend og ExpressJS backend.
               </p>
               <p className="text-lg  px-4 mb-3 inline-block">
                 <span className="opacity-50">Sourcecode:</span>{" "}
-                <span className="text-red-400">Ikke offentlig</span>
+                <span className="text-red-400">
+                  Ikke offentlig, men{" "}
+                  <a
+                    className="text-blue-400 underline"
+                    href="https://orkesterplass.no"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Link til nettsiden
+                  </a>
+                </span>
               </p>
             </div>
             <div
               className="inline-block bg-dark2 rounded-md shadow mr-4"
               style={{ width: "400px" }}
             >
-              <h2 className="text-3xl text-center py-3">Denne siden</h2>
+              <a href="/">
+                <h2 className="text-3xl text-center py-3">Denne siden</h2>
+              </a>
+
               <img
                 src="/img/orkesterplass.png"
                 alt="screenshot of www.orkesterplass.no"
@@ -72,7 +85,7 @@ function ProjectSection() {
                 height="280px"
               />
               <p className="text-xl px-4 py-3">
-                Nettside lagde med React frontend og ExpressJS backend.
+                Nettside lagd med React. Animasjoner lagd med Framer Motion.
               </p>
               <p className="text-lg  px-4 mb-3 inline-block">
                 <span className="opacity-50">Sourcecode:</span>{" "}
