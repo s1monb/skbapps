@@ -1,9 +1,9 @@
 import React from "react";
 import { render } from "@testing-library/react";
-import App from "./App";
+import App from "../components/App";
 
-test("renders name in sidebar", () => {
+test("renders app", () => {
   const { getByText } = render(<App />);
-  const linkElement = getByText(/Simon K. Bjørnøy/i);
+  const linkElement = getByText(/ /i);
   expect(linkElement).toBeInTheDocument();
 });
