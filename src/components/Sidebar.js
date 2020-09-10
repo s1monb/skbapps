@@ -27,7 +27,7 @@ function Sidebar({ isOpen, setOpen }) {
     <motion.div
       variants={sidebar}
       animate={isOpen ? "show" : "hidden"}
-      className="h-screen inline-block fixed top-0 bg-sidebarBackground text-white shadow-inner z-50"
+      className="h-screen inline-block fixed top-0 bg-dark1 text-white shadow-xl z-50"
       initial={false}
     >
       {/* Header section */}

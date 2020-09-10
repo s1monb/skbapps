@@ -2,8 +2,8 @@ import React from "react";
 
 function ProjectSection() {
   return (
-    <section className="h-screen bg-light1" id="Prosjekter">
-      <div className="sticky top-0 z-40">
+    <section className="h-screen bg-light1 text-center" id="Prosjekter">
+      <div className="sticky top-0 z-40 text-left">
         <div className="inline-block h-20 w-20 rounded-full bg-dark1 ml-8 text-5xl text-superpink text-center shadow-md mt-5">
           <i className="fal fa-folder"></i>
         </div>
@@ -12,10 +12,112 @@ function ProjectSection() {
         </h1>
       </div>
 
-      <div className="bg-turkis relative" style={{ height: "90vh" }}>
+      <div
+        className="bg-turkis relative"
+        style={{ height: "90vh", zIndex: "0" }}
+      >
+        <div
+          className="bg-dark1 inline-block px-16 py-10 rounded-lg shadow-lg text-left mt-12"
+          style={{ zIndex: "51" }}
+        >
+          <div className="mb-2">
+            <svg
+              className="inline-block h-12 mb-3"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              fill="#F15386"
+            >
+              <path d="M194.74 96l54.63 54.63c6 6 14.14 9.37 22.63 9.37h192c8.84 0 16 7.16 16 16v224c0 8.84-7.16 16-16 16H48c-8.84 0-16-7.16-16-16V112c0-8.84 7.16-16 16-16h146.74M48 64C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V176c0-26.51-21.49-48-48-48H272l-54.63-54.63c-6-6-14.14-9.37-22.63-9.37H48z" />
+            </svg>
+            <div className="inline-block align-bottom ml-2 text-turkis2">
+              <h1 className="text-5xl inline-block font-bold">Prosjekter</h1>
+            </div>
+          </div>
+          <div className="flex flex-wrap bg-ocean rounded-lg shadow-md px-12 py-8">
+            <div
+              className="inline-block bg-dark2 rounded-md shadow mr-4"
+              style={{ width: "400px" }}
+            >
+              <a
+                href="https://orkesterplass.no"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h2 className="text-3xl text-center py-3">Orkesterplass.no</h2>
+              </a>
+
+              <img
+                src="/img/orkesterplass.png"
+                alt="screenshot of www.orkesterplass.no"
+                width="400px"
+                height="280px"
+              />
+              <p className="text-xl px-4 py-3">
+                Nettside lagde med React frontend og ExpressJS backend.
+              </p>
+              <p className="text-lg  px-4 mb-3 inline-block">
+                <span className="opacity-50">Sourcecode:</span>{" "}
+                <span className="text-red-400">Ikke offentlig</span>
+              </p>
+            </div>
+            <div
+              className="inline-block bg-dark2 rounded-md shadow mr-4"
+              style={{ width: "400px" }}
+            >
+              <h2 className="text-3xl text-center py-3">Denne siden</h2>
+              <img
+                src="/img/orkesterplass.png"
+                alt="screenshot of www.orkesterplass.no"
+                width="400px"
+                height="280px"
+              />
+              <p className="text-xl px-4 py-3">
+                Nettside lagde med React frontend og ExpressJS backend.
+              </p>
+              <p className="text-lg  px-4 mb-3 inline-block">
+                <span className="opacity-50">Sourcecode:</span>{" "}
+                <a
+                  href="https://github.com/s1monb/skbapps"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span className="text-blue-400 underline">Link til repo</span>
+                </a>
+              </p>
+            </div>
+            <div
+              className="inline-block bg-dark2 rounded-md shadow"
+              style={{ width: "400px" }}
+            >
+              <h2 className="text-3xl text-center py-3">Andre småprosjekter</h2>
+              <img
+                src="/img/orkesterplass.png"
+                alt="screenshot of www.orkesterplass.no"
+                width="400px"
+                height="280px"
+              />
+              <p className="text-xl px-4 py-3">
+                Disse er lagd med forskjellige teknologier. JavaScript, React,
+                Typescript, JWT, ExpressJS osv.
+              </p>
+              <p className="text-lg  px-4 mb-3 inline-block">
+                <span className="opacity-50">Sourcecode:</span>{" "}
+                <a
+                  href="https://github.com/s1monb"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span className="text-blue-400 underline">
+                    Link til min github
+                  </span>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
         <svg
           className="absolute"
-          style={{ top: "-120px", right: "0px" }}
+          style={{ top: "-120px", right: "0px", zIndex: "-10" }}
           xmlns="http://www.w3.org/2000/svg"
           width="1919"
           height="682.886"
@@ -29,7 +131,7 @@ function ProjectSection() {
         </svg>
         <svg
           className="absolute"
-          style={{ top: "-80px", right: "0px" }}
+          style={{ top: "-80px", right: "0px", zIndex: "-10" }}
           xmlns="http://www.w3.org/2000/svg"
           width="1919"
           height="682.886"
@@ -44,7 +146,7 @@ function ProjectSection() {
         </svg>
         <svg
           className="absolute"
-          style={{ bottom: "-340px", right: "0px" }}
+          style={{ bottom: "-340px", right: "0px", zIndex: "-10" }}
           xmlns="http://www.w3.org/2000/svg"
           width="1919"
           height="620.356"
@@ -59,7 +161,7 @@ function ProjectSection() {
         </svg>
         <svg
           className="absolute"
-          style={{ bottom: "-300px", right: "0px" }}
+          style={{ bottom: "-300px", right: "0px", zIndex: "-10" }}
           xmlns="http://www.w3.org/2000/svg"
           width="1919"
           height="620.356"
