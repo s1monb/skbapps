@@ -5,7 +5,7 @@ function SkillsSection() {
     <section
       className="h-screen bg-light1 relative text-center"
       id="Ferdigheter"
-      style={{ scrollSnapAlign: "start", margin: "0 auto" }}
+      style={{ scrollSnapAlign: "start", margin: "0 auto", zIndex: "0" }}
     >
       <div className="sticky top-0 z-40 text-left">
         <div className="inline-block h-20 w-20 rounded-full bg-dark1 ml-8 text-5xl text-superpink text-center shadow-md mt-5">
@@ -34,17 +34,29 @@ function SkillsSection() {
             <thead>
               <tr className="bg-dark1">
                 <th className="px-8 py-2">Navn</th>
-                <th className="px-4 pr-32">Ferdighetsnivå</th>
+                <th className="text-center px-24">Ferdighetsnivå</th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <th className="px-8 py-2">React</th>
-                <th className="px-4 py-2">3 star</th>
+                <th className="px-4 py-2 text-center">
+                  <i className="fas fa-star cursor-text"></i>
+                  <i className="fas fa-star cursor-text"></i>
+                  <i className="fas fa-star-half-alt cursor-text"></i>
+                  <i className="far fa-star cursor-text"></i>
+                  <i className="far fa-star cursor-text"></i>
+                </th>
               </tr>
               <tr className="bg-ocean2">
                 <th className="px-8 py-2">HTML, CSS og JavaScript</th>
-                <th className="px-4 py-2">4 star</th>
+                <th className="px-4 py-2 text-center">
+                  <i className="fas fa-star cursor-text"></i>
+                  <i className="fas fa-star cursor-text"></i>
+                  <i className="fas fa-star cursor-text"></i>
+                  <i className="fas fa-star cursor-text"></i>
+                  <i className="far fa-star cursor-text"></i>
+                </th>
               </tr>
             </tbody>
           </table>
@@ -52,31 +64,70 @@ function SkillsSection() {
       </div>
       <svg
         className="absolute"
-        style={{ top: "150px", right: "0px" }}
+        style={{ top: "200px", zIndex: "-10" }}
         xmlns="http://www.w3.org/2000/svg"
-        width="78.793"
-        height="360"
-        viewBox="0 0 78.793 360"
+        width="1920"
+        height="570"
+        viewBox="0 0 1920 570"
+      >
+        <rect width="1920" height="570" fill="#4cafbf" />
+      </svg>
+      <svg
+        className="absolute"
+        style={{ top: "240px", zIndex: "-10" }}
+        xmlns="http://www.w3.org/2000/svg"
+        width="1920"
+        height="336.388"
+        viewBox="0 0 1920 336.388"
       >
         <path
-          d="M2391,4139s-59.114,57.379-68,90,45.591,50.856,0,119,68,151,68,151Z"
-          transform="translate(-2312.207 -4139)"
-          fill="#4eb9c7"
-          opacity="0.826"
+          d="M2461,4488.75s365.886-42.213,498.791-118.035,431.054-85.792,592.377-70.759,427.23-14.941,597.009-58.914S4381,4203.75,4381,4203.75v-51.388H2461Z"
+          transform="translate(-2461 -4152.362)"
+          fill="#536d89"
+          opacity="0.899"
         />
       </svg>
       <svg
         className="absolute"
-        style={{ top: "172px", right: "0px" }}
+        style={{ top: "200px", zIndex: "-10" }}
         xmlns="http://www.w3.org/2000/svg"
-        width="63.626"
-        height="298"
-        viewBox="0 0 63.626 298"
+        width="1920"
+        height="336.388"
+        viewBox="0 0 1920 336.388"
       >
         <path
-          d="M2375.41,4138.571s-47.871,48.029-55,75,36.576,41.658,0,98,55,125,55,125Z"
-          transform="translate(-2311.784 -4138.571)"
-          fill="#4eb9c7"
+          d="M2461,4488.75s365.886-42.213,498.791-118.035,431.054-85.792,592.377-70.759,427.23-14.941,597.009-58.914S4381,4203.75,4381,4203.75v-51.388H2461Z"
+          transform="translate(-2461 -4152.362)"
+          fill="#536d89"
+        />
+      </svg>
+      <svg
+        className="absolute"
+        style={{ top: "520px", zIndex: "-10" }}
+        xmlns="http://www.w3.org/2000/svg"
+        width="1920"
+        height="288.668"
+        viewBox="0 0 1920 288.668"
+      >
+        <path
+          d="M2461,4588.6l459.848-93.187c114.962-23.3,261.548-67.287,360.319-34.895s90.594,60.789,340.867,43.875,182.61-86.425,442.858-116.877S4381,4614.439,4381,4614.439v59.244l-1920-1.578Z"
+          transform="translate(-2461 -4385.015)"
+          fill="#536d89"
+          opacity="0.854"
+        />
+      </svg>
+      <svg
+        className="absolute"
+        style={{ top: "560px", zIndex: "-10" }}
+        xmlns="http://www.w3.org/2000/svg"
+        width="1919"
+        height="240.429"
+        viewBox="0 0 1919 240.429"
+      >
+        <path
+          d="M-2460.5-3559.5v-37l456.543-93.085c114.26-23.3,259.953-67.287,358.12-34.895s90.041,60.789,338.788,43.875,181.495-86.425,440.156-116.878c233.777-27.523,312.425,185.26,325.393,226.45v11.531Z"
+          transform="translate(2460.5 3799.929)"
+          fill="#536d89"
         />
       </svg>
     </section>
