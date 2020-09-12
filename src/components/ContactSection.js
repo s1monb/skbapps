@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 function ContactSection() {
   return (
@@ -164,6 +165,23 @@ function ContactSection() {
           opacity="0.644"
         />
       </svg>
+      <Link
+        to="Hjem"
+        spy={true}
+        smooth={true}
+        duration={800}
+        offset={0}
+        style={{ zIndex: "100" }}
+      >
+        <div
+          className="absolute opacity-75 cursor-pointer hover:opacity-100 text-lg"
+          style={{ bottom: "30px", right: "50%" }}
+        >
+          <span>Scroll to top</span>
+          <br />
+          <i className="fal fa-arrow-up text-2xl"></i>
+        </div>
+      </Link>
     </section>
   );
 }
