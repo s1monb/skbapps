@@ -15,7 +15,7 @@ function SkillsSection() {
           Ferdigheter
         </h1>
       </div>
-      <div className="bg-dark1 inline-block px-16 py-10 rounded-lg shadow-lg text-left mt-12">
+      <div className="bg-dark1 inline-block px-16 py-10 rounded-lg shadow-lg text-left mt-32">
         <div className="mb-2">
           <svg
             className="inline-block h-12 mb-3"
