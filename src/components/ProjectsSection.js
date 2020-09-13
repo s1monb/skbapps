@@ -52,6 +52,7 @@ function ProjectSection() {
 
               <img
                 src="/img/orkesterplass.png"
+                loading="lazy"
                 alt="screenshot of www.orkesterplass.no"
                 width="400px"
                 height="280px"
@@ -84,6 +85,7 @@ function ProjectSection() {
 
               <img
                 src="/img/skbapps.png"
+                loading="lazy"
                 alt="screenshot of this website"
                 width="400px"
                 height="280px"
@@ -109,6 +111,7 @@ function ProjectSection() {
               <h2 className="text-3xl text-center py-3">Andre småprosjekter</h2>
               <img
                 src="/img/github.png"
+                loading="lazy"
                 alt="github-logo"
                 width="400px"
                 height="280px"

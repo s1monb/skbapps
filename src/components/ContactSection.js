@@ -36,7 +36,11 @@ function ContactSection() {
         <div className="flex flex-wrap bg-ocean rounded-lg shadow-md px-12 py-8">
           <div className="ml-12">
             <div className="my-6">
-              <img src="/img/simon-contact.png" alt="Simon Kinn Bjørnøy" />
+              <img
+                src="/img/simon-contact.png"
+                loading="lazy"
+                alt="Simon Kinn Bjørnøy"
+              />
             </div>
           </div>
           <div className="ml-12 mr-8">
