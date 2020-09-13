@@ -83,8 +83,8 @@ function ProjectSection() {
               </a>
 
               <img
-                src="/img/orkesterplass.png"
-                alt="screenshot of www.orkesterplass.no"
+                src="/img/skbapps.png"
+                alt="screenshot of this website"
                 width="400px"
                 height="280px"
               />
@@ -108,8 +108,8 @@ function ProjectSection() {
             >
               <h2 className="text-3xl text-center py-3">Andre småprosjekter</h2>
               <img
-                src="/img/orkesterplass.png"
-                alt="screenshot of www.orkesterplass.no"
+                src="/img/github.png"
+                alt="github-logo"
                 width="400px"
                 height="280px"
               />

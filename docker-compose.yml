@@ -1,0 +1,9 @@
+version: "2.0"
+services:
+  frontend:
+    build: "."
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
