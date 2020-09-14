@@ -37,7 +37,7 @@ function ProjectSection() {
               <h1 className="text-5xl inline-block font-bold">Prosjekter</h1>
             </div>
           </div>
-          <div className="flex flex-wrap bg-ocean rounded-lg shadow-md px-12 py-8">
+          <div className="flex  bg-ocean rounded-lg shadow-md px-12 py-8 overflow-x-scroll max-w-5xl">
             <div
               className="inline-block bg-dark2 rounded-md shadow mr-4"
               style={{ width: "400px" }}

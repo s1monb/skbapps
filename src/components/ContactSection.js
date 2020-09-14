@@ -17,7 +17,7 @@ function ContactSection() {
         </h1>
       </div>
       <div
-        className="bg-dark1 inline-block px-16 mt-20 py-10 rounded-lg shadow-lg text-left"
+        className="bg-dark1 inline-block px-16 mt-20 py-10 rounded-lg shadow-lg text-left max-w-5xl"
         style={{ zIndex: "" }}
       >
         <div className="mb-2">
@@ -33,19 +33,21 @@ function ContactSection() {
             <h1 className="text-5xl inline-block font-bold">Kontakt meg</h1>
           </div>
         </div>
-        <div className="flex flex-wrap bg-ocean rounded-lg shadow-md px-12 py-8">
-          <div className="ml-12">
+        <div className="flex bg-ocean rounded-lg shadow-md px-12 py-8">
+          <div className="">
             <div className="my-6">
               <img
+                width="350px"
+                height="350px"
                 src="/img/simon-contact.png"
                 loading="lazy"
                 alt="Simon Kinn Bjørnøy"
               />
             </div>
           </div>
-          <div className="ml-12 mr-8">
+          <div className="ml-4 mr-4">
             <div className="text-left inline-block mb-8 pl-10">
-              <div className="bg-ocean2 text-2xl pl-6 pr-32 pt-4 pb-8 mt-2 rounded-md shadow-md">
+              <div className="bg-ocean2 text-2xl pl-6 pr-12 pt-4 pb-8 mt-2 rounded-md shadow-md">
                 <ul className="space-y-2 pb-16 pt-2">
                   <li>
                     <i

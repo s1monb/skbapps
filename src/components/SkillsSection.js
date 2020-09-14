@@ -64,7 +64,7 @@ function SkillsSection() {
       </div>
       <svg
         className="absolute"
-        style={{ top: "200px", zIndex: "-10" }}
+        style={{ top: "200px", right: 0, zIndex: "-10" }}
         xmlns="http://www.w3.org/2000/svg"
         width="1920"
         height="570"
@@ -74,7 +74,7 @@ function SkillsSection() {
       </svg>
       <svg
         className="absolute"
-        style={{ top: "240px", zIndex: "-10" }}
+        style={{ top: "240px", right: 0, zIndex: "-10" }}
         xmlns="http://www.w3.org/2000/svg"
         width="1920"
         height="336.388"
@@ -89,7 +89,7 @@ function SkillsSection() {
       </svg>
       <svg
         className="absolute"
-        style={{ top: "200px", zIndex: "-10" }}
+        style={{ top: "200px", right: 0, zIndex: "-10" }}
         xmlns="http://www.w3.org/2000/svg"
         width="1920"
         height="336.388"
@@ -103,7 +103,7 @@ function SkillsSection() {
       </svg>
       <svg
         className="absolute"
-        style={{ top: "520px", zIndex: "-10" }}
+        style={{ top: "520px", right: 0, zIndex: "-10" }}
         xmlns="http://www.w3.org/2000/svg"
         width="1920"
         height="288.668"
@@ -118,7 +118,7 @@ function SkillsSection() {
       </svg>
       <svg
         className="absolute"
-        style={{ top: "560px", zIndex: "-10" }}
+        style={{ top: "560px", right: 0, zIndex: "-10" }}
         xmlns="http://www.w3.org/2000/svg"
         width="1919"
         height="240.429"

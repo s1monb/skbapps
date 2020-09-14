@@ -26,19 +26,27 @@ function App() {
   let [isOpen, setOpen] = useState(false);
 
   return (
-    <div className={`w-screen subpixel-antialiased h-screen text-white`}>
-      <Sidebar isOpen={isOpen} setOpen={setOpen} />
-      <motion.div
-        className="inline-block right-0 absolute"
-        animate={isOpen ? "normal" : "large"}
-        variants={section}
-        initial={false}
+    <div>
+      <div
+        className={`hidden xl:block w-screen subpixel-antialiased h-screen text-white`}
       >
-        <HomeSection />
-        <ProjectsSection />
-        <SkillsSection />
-        <ContactSection />
-      </motion.div>
+        <Sidebar isOpen={isOpen} setOpen={setOpen} />
+        <motion.div
+          className="inline-block right-0 absolute"
+          animate={isOpen ? "normal" : "large"}
+          variants={section}
+          initial={false}
+        >
+          <HomeSection />
+          <ProjectsSection />
+          <SkillsSection />
+          <ContactSection />
+        </motion.div>
+      </div>
+
+      <div className="block xl:hidden text-white text-center mt-10 text-3xl">
+        <p>Only desktop version at this time.</p>
+      </div>
     </div>
   );
 }
