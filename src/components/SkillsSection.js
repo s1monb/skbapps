@@ -32,12 +32,12 @@ function SkillsSection() {
         <div className="nunito bg-ocean rounded-lg shadow-md px-24 pt-12 pb-8">
           <table className="table-auto">
             <thead>
-              <tr className="bg-dark1">
+              <tr className="bg-dark1 font-bold">
                 <th className="px-8 py-2">Navn</th>
                 <th className="px-16 pr-24">Ferdighetsnivå</th>
               </tr>
             </thead>
-            <tbody>
+            <tbody className="font-normal oswald">
               <tr>
                 <th className="px-8 py-2">HTML, CSS og JavaScript</th>
                 <th className="px-16 py-2">Gode kunnskaper</th>
@@ -64,17 +64,11 @@ function SkillsSection() {
               </tr>
               <tr className="">
                 <th className="px-8 py-2">Graphql</th>
-                <th className="px-4 py-2 text-center">Litt erfaring</th>
+                <th className="px-16 py-2">Litt erfaring</th>
               </tr>
               <tr className="bg-ocean2">
                 <th className="px-8 py-2">TypeScript</th>
-                <th className="px-4 py-2 text-center">
-                  <i className="fas fa-star cursor-text"></i>
-                  <i className="fas fa-star cursor-text"></i>
-                  <i className="far fa-star cursor-text"></i>
-                  <i className="far fa-star cursor-text"></i>
-                  <i className="far fa-star cursor-text"></i>
-                </th>
+                <th className="px-16 py-2">Litt erfaring</th>
               </tr>
             </tbody>
           </table>
