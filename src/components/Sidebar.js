@@ -38,13 +38,14 @@ function Sidebar({ isOpen, setOpen }) {
           }`}
         >
           <button onClick={toggleOpen} className="focus:outline-none text-4xl">
+            <span className="sr-only">Sidebare toggle</span>
             <i className={`far  ${isOpen ? "fa-times" : "fa-bars"}`}></i>
           </button>
         </div>
       </div>
 
       {/* Links */}
-      <ul className="mt-32">
+      <div className="mt-32">
         <SidebarButton title="Hjem" isOpen={isOpen}>
           <i className="far fa-home"></i>
         </SidebarButton>
@@ -57,7 +58,7 @@ function Sidebar({ isOpen, setOpen }) {
         <SidebarButton title="Kontakt" isOpen={isOpen}>
           <i className="far fa-phone-alt"></i>
         </SidebarButton>
-      </ul>
+      </div>
     </motion.div>
   );
 }

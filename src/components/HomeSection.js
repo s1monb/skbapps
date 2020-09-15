@@ -119,7 +119,6 @@ function HomeSection() {
             </motion.svg>
             <div className="inline-block align-bottom ml-2 text-turkis2">
               <h1 className="text-5xl inline-block font-bold">Hei</h1>
-              <span className="text-3xl ml-3">- Dette er min jobbsøknad</span>
             </div>
           </div>
           <div className="flex flex-wrap bg-ocean rounded-lg shadow-md px-12 py-8">
@@ -127,7 +126,7 @@ function HomeSection() {
               <div className="my-6">
                 <img
                   className=""
-                  src="/img/simon.png"
+                  src="/img/simon.webp"
                   alt="Simon Kinn Bjørnøy"
                 />
               </div>

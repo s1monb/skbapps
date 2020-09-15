@@ -30,7 +30,7 @@ function SidebarButton({ title, isOpen, children }) {
       offset={-300}
       className="block w-full focus:outline-none text-4xl cursor-pointer py-1 hover:text-white text-gray-500 mt-10"
     >
-      <li className={isOpen ? "text-left ml-8" : "text-center"}>
+      <span className={isOpen ? "text-left ml-8" : "text-center ml-8"}>
         {children}
         <motion.span
           animate={isOpen ? "show" : "hidden"}
@@ -39,7 +39,7 @@ function SidebarButton({ title, isOpen, children }) {
         >
           {title}
         </motion.span>
-      </li>
+      </span>
     </Link>
   );
 }

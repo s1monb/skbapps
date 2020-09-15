@@ -39,7 +39,7 @@ function ContactSection() {
               <img
                 width="350px"
                 height="350px"
-                src="/img/simon-contact.png"
+                src="/img/simon-contact.webp"
                 loading="lazy"
                 alt="Simon Kinn Bjørnøy"
               />
@@ -87,6 +87,7 @@ function ContactSection() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
+                    <span className="sr-only">Link to github</span>
                     <i className="fab fa-linkedin opacity-75 hover:opacity-100"></i>
                   </a>
                   <a
@@ -94,6 +95,7 @@ function ContactSection() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
+                    <span className="sr-only">Link to github</span>
                     <i className="fab fa-github-square opacity-75 hover:opacity-100"></i>
                   </a>
                   <a
@@ -101,6 +103,7 @@ function ContactSection() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
+                    <span className="sr-only">Link to facebook</span>
                     <i className="fab fa-facebook-square opacity-75 hover:opacity-100"></i>
                   </a>
                 </div>
