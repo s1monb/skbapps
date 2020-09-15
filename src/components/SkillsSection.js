@@ -32,7 +32,7 @@ function SkillsSection() {
         <div className="nunito bg-ocean rounded-lg shadow-md px-24 pt-12 pb-8">
           <table className="table-auto">
             <thead>
-              <tr className="bg-dark1 font-bold">
+              <tr className="bg-dark1 font-light">
                 <th className="px-8 py-2">Navn</th>
                 <th className="px-16 pr-24">Ferdighetsnivå</th>
               </tr>
