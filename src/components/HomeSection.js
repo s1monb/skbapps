@@ -127,7 +127,7 @@ function HomeSection() {
               <div className="my-6">
                 <img
                   className=""
-                  src="/img/simon.png"
+                  src="/img/simon.jpg"
                   alt="Simon Kinn Bjørnøy"
                 />
               </div>
