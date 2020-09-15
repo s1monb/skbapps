@@ -32,43 +32,45 @@ function SkillsSection() {
         <div className="nunito bg-ocean rounded-lg shadow-md px-24 pt-12 pb-8">
           <table className="table-auto">
             <thead>
-              <tr className="bg-dark1 font-light">
+              <tr className="bg-dark1">
                 <th className="px-8 py-2">Navn</th>
                 <th className="px-16 pr-24">Ferdighetsnivå</th>
               </tr>
             </thead>
-            <tbody className="font-normal oswald">
+            <tbody className="oswald">
               <tr>
-                <th className="px-8 py-2">HTML, CSS og JavaScript</th>
-                <th className="px-16 py-2">Gode kunnskaper</th>
+                <th className="px-8 py-2 font-normal">
+                  HTML, CSS og JavaScript
+                </th>
+                <th className="px-16 py-2 font-normal">Gode kunnskaper</th>
               </tr>
               <tr className="bg-ocean2">
-                <th className="px-8 py-2">ExpressJS and NodeJS</th>
-                <th className="px-16 py-2">Gode kunnskaper</th>
-              </tr>
-              <tr>
-                <th className="px-8 py-2">API-design</th>
-                <th className="px-16 py-2">Litt erfaring</th>
-              </tr>
-              <tr className="bg-ocean2">
-                <th className="px-8 py-2">React</th>
-                <th className="px-16 py-2">Middels erfaring</th>
+                <th className="px-8 py-2 font-normal">ExpressJS and NodeJS</th>
+                <th className="px-16 py-2 font-normal">Gode kunnskaper</th>
               </tr>
               <tr>
-                <th className="px-8 py-2">TailwindCSS</th>
-                <th className="px-16 py-2">En del erfaring</th>
+                <th className="px-8 py-2 font-normal">React</th>
+                <th className="px-16 py-2 font-normal">Middels erfaring</th>
               </tr>
               <tr className="bg-ocean2">
-                <th className="px-8 py-2">Docker And Containers</th>
-                <th className="px-16 py-2">Litt erfaring</th>
+                <th className="px-8 py-2 font-normal">TailwindCSS</th>
+                <th className="px-16 py-2 font-normal">Middels erfaring</th>
               </tr>
-              <tr className="">
-                <th className="px-8 py-2">Graphql</th>
-                <th className="px-16 py-2">Litt erfaring</th>
+              <tr>
+                <th className="px-8 py-2 font-normal">Docker And Containers</th>
+                <th className="px-16 py-2 font-normal">Litt erfaring</th>
               </tr>
               <tr className="bg-ocean2">
-                <th className="px-8 py-2">TypeScript</th>
-                <th className="px-16 py-2">Litt erfaring</th>
+                <th className="px-8 py-2 font-normal">API-design</th>
+                <th className="px-16 py-2 font-normal">Litt erfaring</th>
+              </tr>
+              <tr>
+                <th className="px-8 py-2 font-normal">Graphql</th>
+                <th className="px-16 py-2 font-normal">Litt erfaring</th>
+              </tr>
+              <tr className="bg-ocean2">
+                <th className="px-8 py-2 font-normal">TypeScript</th>
+                <th className="px-16 py-2 font-normal">Litt erfaring</th>
               </tr>
             </tbody>
           </table>
