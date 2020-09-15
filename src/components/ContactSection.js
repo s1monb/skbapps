@@ -39,7 +39,7 @@ function ContactSection() {
               <img
                 width="350px"
                 height="350px"
-                src="/img/simon-contact.jpg"
+                src="/img/simon-contact.png"
                 loading="lazy"
                 alt="Simon Kinn Bjørnøy"
               />
