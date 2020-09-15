@@ -15,7 +15,7 @@ function SkillsSection() {
           Ferdigheter
         </h1>
       </div>
-      <div className="bg-dark1 inline-block px-16 py-10 rounded-lg shadow-lg text-left mt-32">
+      <div className="bg-dark1 inline-block px-16 py-10 rounded-lg shadow-lg text-left mt-24">
         <div className="mb-2">
           <svg
             className="inline-block h-12 mb-3"
@@ -34,27 +34,45 @@ function SkillsSection() {
             <thead>
               <tr className="bg-dark1">
                 <th className="px-8 py-2">Navn</th>
-                <th className="text-center px-24">Ferdighetsnivå</th>
+                <th className="px-16 pr-24">Ferdighetsnivå</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <th className="px-8 py-2">React</th>
-                <th className="px-4 py-2 text-center">
-                  <i className="fas fa-star cursor-text"></i>
-                  <i className="fas fa-star cursor-text"></i>
-                  <i className="fas fa-star-half-alt cursor-text"></i>
-                  <i className="far fa-star cursor-text"></i>
-                  <i className="far fa-star cursor-text"></i>
-                </th>
+                <th className="px-8 py-2">HTML, CSS og JavaScript</th>
+                <th className="px-16 py-2">Gode kunnskaper</th>
               </tr>
               <tr className="bg-ocean2">
-                <th className="px-8 py-2">HTML, CSS og JavaScript</th>
+                <th className="px-8 py-2">ExpressJS and NodeJS</th>
+                <th className="px-16 py-2">Gode kunnskaper</th>
+              </tr>
+              <tr>
+                <th className="px-8 py-2">API-design</th>
+                <th className="px-16 py-2">Litt erfaring</th>
+              </tr>
+              <tr className="bg-ocean2">
+                <th className="px-8 py-2">React</th>
+                <th className="px-16 py-2">Middels erfaring</th>
+              </tr>
+              <tr>
+                <th className="px-8 py-2">TailwindCSS</th>
+                <th className="px-16 py-2">En del erfaring</th>
+              </tr>
+              <tr className="bg-ocean2">
+                <th className="px-8 py-2">Docker And Containers</th>
+                <th className="px-16 py-2">Litt erfaring</th>
+              </tr>
+              <tr className="">
+                <th className="px-8 py-2">Graphql</th>
+                <th className="px-4 py-2 text-center">Litt erfaring</th>
+              </tr>
+              <tr className="bg-ocean2">
+                <th className="px-8 py-2">TypeScript</th>
                 <th className="px-4 py-2 text-center">
                   <i className="fas fa-star cursor-text"></i>
                   <i className="fas fa-star cursor-text"></i>
-                  <i className="fas fa-star cursor-text"></i>
-                  <i className="fas fa-star cursor-text"></i>
+                  <i className="far fa-star cursor-text"></i>
+                  <i className="far fa-star cursor-text"></i>
                   <i className="far fa-star cursor-text"></i>
                 </th>
               </tr>

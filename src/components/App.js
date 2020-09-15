@@ -45,7 +45,7 @@ function App() {
       </div>
 
       <div className="block xl:hidden text-white text-center mt-10 text-3xl">
-        <p>Only desktop version at this time.</p>
+        <p>Only desktop version.</p>
       </div>
     </div>
   );
