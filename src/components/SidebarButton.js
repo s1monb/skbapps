@@ -28,7 +28,7 @@ function SidebarButton({ title, isOpen, children }) {
       smooth={true}
       duration={400}
       offset={-300}
-      className="block w-full focus:outline-none text-4xl cursor-pointer py-1 hover:white opacity-50 mt-10"
+      className="block w-full focus:outline-none text-4xl cursor-pointer py-1 hover:text-white text-gray-500 mt-10"
     >
       <li className={isOpen ? "text-left ml-8" : "text-center"}>
         {children}
