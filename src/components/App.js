@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 
 import Sidebar from "./Sidebar";
 import HomeSection from "./HomeSection";
-import ProjectsSection from "./ProjectsSection";
-import SkillsSection from "./SkillsSection";
-import ContactSection from "./ContactSection";
+const ProjectsSection = React.lazy(() => import("./ProjectsSection"));
+const SkillsSection = React.lazy(() => import("./SkillsSection"));
+const ContactSection = React.lazy(() => import("./ContactSection"));
 
 const section = {
   normal: {
@@ -38,9 +38,11 @@ function App() {
           initial={false}
         >
           <HomeSection />
-          <ProjectsSection />
-          <SkillsSection />
-          <ContactSection />
+          <React.Suspense fallback={<div>loading ..</div>}>
+            <ProjectsSection />
+            <SkillsSection />
+            <ContactSection />
+          </React.Suspense>
         </motion.div>
       </div>
 
